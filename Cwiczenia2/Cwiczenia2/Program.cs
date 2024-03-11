@@ -4,6 +4,7 @@
     {
         Console.WriteLine("Hello!");
         Console.WriteLine(average(new[] { 1, 2, 3 }));
+        Console.WriteLine(max(new[] { 53, 12312, 10, 123, 52, 1, -5 }));
     }
 
     public static double average(int[] arr)
@@ -20,6 +21,13 @@
 
     public static int max(int[] arr)
     {
-        return 1;
+        int max = 0;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (max < arr[i])
+                max = arr[i];
+        }
+
+        return max;
     }
 }
