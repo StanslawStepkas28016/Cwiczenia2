@@ -11,9 +11,9 @@
     {
         int sum = 0;
 
-        for (int i = 0; i < arr.Length; i++)
+        for (int c = 0; c < arr.Length; c++)
         {
-            sum += arr[i];
+            sum += arr[c];
         }
 
         return sum / (double)(arr.Length);
