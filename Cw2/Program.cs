@@ -3,7 +3,7 @@
     public static void Main(string[] args)
     {
         Console.WriteLine("Hello!");
-        Console.WriteLine(average(new[] { 1, 2, 3}));
+        Console.WriteLine(average(new[] { 1, 2, 3 }));
     }
 
     public static double average(int[] arr)
